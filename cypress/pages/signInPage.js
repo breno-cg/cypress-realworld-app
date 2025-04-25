@@ -6,7 +6,8 @@ class SignInPage {
             usernameField: "#username",
             passwordField: "#password",
             signInButton: ".SignInForm-submit",
-            wrongCredentialAlert: ".MuiAlert-message"
+            wrongCredentialAlert: ".MuiAlert-message",
+            signUpPathway: "[data-test='signup']"
         }
 
         return selectors
@@ -17,6 +18,7 @@ class SignInPage {
     }
 
     checkSignInPage() {
+        cy.location('pathname').should('equal', '/signin')
         cy.get(this.selectorsList().signInForm).should('be.visible')
     }
 
@@ -26,8 +28,12 @@ class SignInPage {
         cy.get(this.selectorsList().signInButton).click()
     }
 
-    checkAccessInvalid() {
+    checkInvalidAccess() {
         cy.get(this.selectorsList().wrongCredentialAlert)
+    }
+
+    accessSignUpPage() {
+        cy.get(this.selectorsList().signUpPathway).click()
     }
 
 }

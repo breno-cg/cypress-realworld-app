@@ -11,7 +11,7 @@ describe('Real World App Sign In', () => {
     signInPage.accessSignInPage()
     signInPage.checkSignInPage()
     signInPage.signInWithAnyUser("anything", "anything123")
-    signInPage.checkAccessInvalid()
+    signInPage.checkInvalidAccess()
   })
 
   it('Success Sign In - Should sign in with a valid register', () => {

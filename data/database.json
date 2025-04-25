@@ -74,6 +74,50 @@
       "balance": 49474,
       "createdAt": "2023-12-07T04:39:38.383Z",
       "modifiedAt": "2024-03-07T00:07:36.510Z"
+    },
+    {
+      "id": "q1FAomw6b",
+      "uuid": "3b2b9639-0488-4e99-b7c8-71d1e7d7732f",
+      "firstName": "uhuhuh",
+      "lastName": "ninijij",
+      "username": "asa",
+      "password": "$2a$10$4Pt69TJlStJaiKhuVabG6eQyo1w5LXCPiwy7u/zO0GZ94MSFa44Wy",
+      "balance": 0,
+      "createdAt": "2025-04-25T17:12:10.801Z",
+      "modifiedAt": "2025-04-25T17:12:10.801Z"
+    },
+    {
+      "id": "0hwvznf7c",
+      "uuid": "503bbeed-331d-41ac-b87c-cda30049fd6e",
+      "firstName": "Bjkjsd",
+      "lastName": "Hiabdihb",
+      "username": "Bnrere",
+      "password": "$2a$10$FCcwQJYgYRDLP/.hzeACQecjAaygu/QEQFXGDc/kXvkM/i77KV6rG",
+      "balance": 0,
+      "createdAt": "2025-04-25T18:18:03.475Z",
+      "modifiedAt": "2025-04-25T18:18:03.475Z"
+    },
+    {
+      "id": "6gfKnFFYI",
+      "uuid": "679b9bb4-f4a3-4d3d-9e4b-243f30152642",
+      "firstName": "Ted",
+      "lastName": "Parisian",
+      "username": "Heath93",
+      "password": "$2a$10$9XGPjU4dSBZR6J3tgOiwFuFY5MPzgOb5XDa3/va8Gc2QpnKLTT4Be",
+      "balance": 0,
+      "createdAt": "2025-04-25T18:30:48.624Z",
+      "modifiedAt": "2025-04-25T18:30:48.624Z"
+    },
+    {
+      "id": "63MZL4CZw",
+      "uuid": "90558f93-e96d-4e27-8c46-9a1f5b5d74f7",
+      "firstName": "Ted",
+      "lastName": "Parisian",
+      "username": "Heath93",
+      "password": "$2a$10$tL57StnlMAmDU0ZRs.i1p.KmW95XtPva4J8Qp.chM4Ihu4soe5IhW",
+      "balance": 0,
+      "createdAt": "2025-04-25T18:38:15.973Z",
+      "modifiedAt": "2025-04-25T18:38:15.973Z"
     }
   ],
   "contacts": [
