@@ -9,7 +9,7 @@ const signInPage = new SignInPage
 
 describe('Real World App Transaction', () => {
   
-    it('Successful Money Transfer - ', () => {
+    it('Successful Money Transfer with a smaller amount or equal to the balance ', () => {
       signInPage.accessSignInPage()
       signInPage.checkSignInPage()
       signInPage.signInWithAnyUser(userData.userData.username, "s3cret")
