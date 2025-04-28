@@ -7,7 +7,7 @@ const signUpPage = new SignUpPage
 
 describe('Real World App Sign Up', () => {
   
-    it('Fail Sign Up - Should appear an error message when attempting to sign up without credentials', () => {
+    it('Failed Sign Up - Should appear an error message when attempting to sign up without credentials', () => {
         signInPage.accessSignInPage()
         signInPage.checkSignInPage()
         signInPage.accessSignUpPage()
@@ -16,7 +16,7 @@ describe('Real World App Sign Up', () => {
         signUpPage.checkInvalidSignUp()
     })
 
-    it('Success Sign Up - Should sign up with valid data', () => {
+    it('Successful Sign Up - Should sign up with valid data', () => {
         signInPage.accessSignInPage()
         signInPage.checkSignInPage()
         signInPage.accessSignUpPage()

@@ -2,7 +2,8 @@ class DashboardPage {
 
     selectorsList() {
         const selectors = {
-            dashboardTablist: "[role='tablist']"
+            dashboardTablist: "[role='tablist']",
+            newTransactionButton: "[data-test='nav-top-new-transaction']"
         }
 
         return selectors
@@ -11,6 +12,10 @@ class DashboardPage {
     checkDashboardPage() {
         cy.location('pathname').should('equal', '/')
         cy.get(this.selectorsList().dashboardTablist).should('be.visible')
+    }
+
+    accessTransactionPage() {
+        cy.get(this.selectorsList().newTransactionButton).click()
     }
 
 }

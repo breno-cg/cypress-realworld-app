@@ -7,14 +7,14 @@ const dashboardPage = new DashboardPage
 
 describe('Real World App Sign In', () => {
   
-  it('Fail Sign In - Should appear an error message when attempting to sign in with invalid credentials', () => {
+  it('Failed Sign In - Should appear an error message when attempting to sign in with invalid credentials', () => {
     signInPage.accessSignInPage()
     signInPage.checkSignInPage()
     signInPage.signInWithAnyUser("anything", "anything123")
     signInPage.checkInvalidAccess()
   })
 
-  it('Success Sign In - Should sign in with a valid register', () => {
+  it('Successful Sign In - Should sign in with a valid register', () => {
     signInPage.accessSignInPage()
     signInPage.checkSignInPage()
     signInPage.signInWithAnyUser(userData.userData.username, "s3cret")
